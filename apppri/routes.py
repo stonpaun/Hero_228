@@ -13,7 +13,7 @@ menu = [{"title": "Начало", "url": "index"},
 @app.route('/')
 @app.route('/index')
 def index():
-    best_pri = {'username': 'Макарцев'}
+    best_pri = {'username': 'Гришин'}
 
     return render_template('index.html', title='2022 Forever', menu=menu, user=best_pri)
 
